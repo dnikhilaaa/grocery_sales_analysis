@@ -1,0 +1,6 @@
+date,store,product,category,units_sold,price
+2023-01-01,Store A,Milk,Dairy,30,2.5
+2023-01-01,Store A,Bread,Bakery,50,1.5
+2023-01-01,Store B,Milk,Dairy,25,2.5
+2023-01-02,Store A,Eggs,Dairy,40,3.0
+2023-01-02,Store B,Bread,Bakery,35,1.5
