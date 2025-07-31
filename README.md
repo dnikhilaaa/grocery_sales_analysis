@@ -1,33 +1,60 @@
-# Grocery Sales Analysis with SQL & Python
+# 🛒 Grocery Sales Analysis with SQL & Python
 
-This project analyzes transactional grocery sales data. It includes:
+This project analyzes simulated grocery sales data using SQL and Python. It includes data cleaning, time-series trend analysis, and sales visualizations.
 
-- Data cleaning using Python
-- SQL queries for store/category insights
-- Time-series revenue trends
+---
 
-## Files
-- `grocery_sales.csv`: Sample dataset
-- `analyze_sales.py`: Python analysis script
+## 📦 Dataset
 
-## How to Run
-```bash
+Simulated grocery transaction data from Jan 2018 to May 2018.  
+Used for analyzing:
+- Sales trends
+- Top-performing categories
+- Store-level metrics
+
+---
+
+## 🧠 Tools Used
+
+- **SQL**: Joins, CTEs, Grouping
+- **Python**: Data manipulation with `pandas`, Visualizations with `matplotlib`
+- **SQLite**: Query engine
+- **VS Code** + Git + GitHub
+
+---
+
+## 📊 Sample Visualizations
+
+### 🔹 Sales by Category
+![Sales by Category](images/sales_by_category.png)
+
+> (You’ll add the actual image later — I’ll guide you)
+
+---
+
+## ⚙️ How to Run
+
+1. Clone this repo  
+2. Install requirements  
+   ```bash
+   pip install -r requirements.txt
+Run the script
+
+bash
+Copy
+Edit
 python analyze_sales.py
+✅ Project Goals
+Build data pipeline for cleaning
 
----
+Perform SQL queries on structured data
 
-### D. Create `requirements.txt`
+Visualize key sales metrics
 
-1. Right-click → `New File`
-2. Name it:
-3. Paste:
+Practice Git & GitHub workflows
 
----
+👩‍💻 Author
+Nikhila Reddy
+📧 LinkedIn
+💻 GitHub
 
-## 🌀 STEP 4: Initialize Git (Track Your Project Locally)
-
-1. In the terminal (bottom of VS Code), type:
-```bash
-git init
-git add .
-git commit -m "Initial commit: grocery sales analysis with Python"
